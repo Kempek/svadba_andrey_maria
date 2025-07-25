@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="js/scripts.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <title>Наедине</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="start" data-aos="fade-up" data-aos-duration="1000">
+            <p>
+                Наедине - то самое мгновение, когда время замирает и мир словно останавливается,
+                чтобы подарить нам возможность любить и чувствовать жизнь вокруг.
+            </p>
+        </div>
+
+        <div class="KandA" data-aos="fade-up" data-aos-delay="300">
+            <h1>
+                Андрей <br />
+                Мария
+            </h1>
+        </div>
+
+        <div class="date" data-aos="zoom-in" data-aos-duration="1200">
+            <h2>20 Сентября</h2>
+            <hr />
+            <p>
+                Приглашение <br />
+                на свадьбу
+            </p>
+        </div>
+
+        <div class="dearF" data-aos="fade-up" data-aos-delay="200">
+            <h2>
+                ДОРОГИЕ РОДНЫЕ <br />
+                И ДРУЗЬЯ
+            </h2>
+            <hr />
+        </div>
+
+        <div class="sent-message" data-aos="fade-up" data-aos-duration="1200">
+            <p>
+                Ваше присутствие <br />
+                в день нашей свадьбы <br />
+                - самый значимый подарок для нас!<br /><br />
+
+                Будем бесконечно счастливы <br />
+                разделить с Вами этот особенный <br />
+                и важный для нас день!
+            </p>
+        </div>
+
+        <div class="gathering-guests">
+            <div class="guests-left" data-aos="fade-right" data-aos-delay="500">
+                <h3>
+                    Ресторан<br />
+                    17:00
+                </h3>
+            </div>
+            <hr />
+            <img src="images/dot.svg" alt="" class="dot-1" />
+            <img src="images/dot.svg" alt="" class="dot-2" />
+            <div class="guests-right" data-aos="fade-left" data-aos-delay="500">
+                <h3>
+                    Торжественный <br />
+                    Роспись <br />
+                    13:30
+                </h3>
+            </div>
+        </div>
+
+        <div class="place" data-aos="fade-up" data-aos-duration="1000">
+            <h2>
+                МЕСТО <br />
+                ПРОВЕДЕНИЯ
+            </h2>
+            <hr />
+        </div>
+
+        <div class="address" data-aos="flip-up" data-aos-duration="1000">
+            <div class="map">
+                <hr class="vertical" />
+                <hr class="horizontal" />
+                <img src="images/map.webp" alt="" />
+                <a
+                    href="https://yandex.ru/maps/org/utskho/52760745431/?ll=41.290937%2C56.345479&source=serp_navig&z=16.45">Открыть
+                    на карте </a>
+            </div>
+            <p>
+                Город Ковров <br />
+                Улица Кирова<br />
+                Дом 138<br />
+                Ресторан "Уцхо" <br />
+            </p>
+        </div>
+        <div class="timer" data-aos="zoom-in-up" data-aos-duration="1000">
+            <h2>Ждём вас через...</h2>
+            <div id="countdown" class="countdown" data-aos="fade-up" data-aos-delay="500">
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <div class="label">дней</div>
+                </div>
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <div class="label">часов</div>
+                </div>
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <div class="label">минут</div>
+                </div>
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <div class="label">секунд</div>
+                </div>
+            </div>
+        </div>
+        <div class="wishes" data-aos="fade-up" data-aos-delay="300">
+            <h2>ПОЖЕЛАНИЯ</h2>
+            <hr />
+        </div>
+
+        <div class="wishes-details" data-aos="fade-up" data-aos-duration="1000">
+            <p>
+                Мы не хотим обременять<br />
+                вас поисками подарка. <br />
+                Поэтому будем рады <br />
+                вашему вкладу в наш<br />
+                семейный бюджет. <br />
+
+            </p>
+        </div>
+
+        <div class="accept" data-aos="zoom-in" data-aos-duration="1200">
+            <h2>
+                ПОДТВЕРДИТЕ СВОЕ <br />
+                ПРИСУТСТВИЕ
+            </h2>
+            <p>до 14.08.2025</p>
+
+            <div id="error-messages" style="margin-bottom: 20px"></div>
+
+            <div class="label-container">
+                <label for="name">Имя</label>
+                <input id="name" type="text" placeholder="введите здесь свое имя" />
+            </div>
+
+            <div class="label-container">
+                <label for="second-name">Фамилия</label>
+                <input id="second-name" type="text" placeholder="введите здесь свою фамилию" />
+            </div>
+
+            <button class="transfer" data-aos="fade-up" data-aos-delay="500">
+                Мне нужен трансфер
+            </button>
+            <button class="nature" data-aos="fade-up" data-aos-delay="550">
+                Поеду на природу
+            </button>
+            <div class="will-notwill">
+                <button class="will">БУДУ</button>
+                <button class="notwill">НЕ СМОГУ</button>
+            </div>
+
+            <button class="submit" data-aos="fade-up" data-aos-delay="900">ОТПРАВИТЬ</button>
+        </div>
+
+        <div class="questions">
+            <h2>ПО ВОПРОСАМ</h2>
+            <br />
+            <p>Мария Конищева</p>
+            <a href="tel:89045921483">8 (904) 592-14-83</a>
+        </div>
+    </div>
+</body>
+
+</html>
