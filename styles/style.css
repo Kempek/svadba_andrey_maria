@@ -186,13 +186,13 @@ hr {
 
 .dot-1 {
 	position: absolute;
-	left: 157px;
+	left: 151px;
 	top: 36px;
 }
 
 .dot-2 {
 	position: absolute;
-	left: 157px;
+	left: 151px;
 	bottom: 62px;
 }
 
@@ -549,7 +549,9 @@ hr {
 	font-family: 'Onest';
 	color: #603517;
 }
-
+.h3-class {
+	font-size: 38px;
+}
 .label {
 	margin-top: 5px;
 	font-size: 0.9rem;
